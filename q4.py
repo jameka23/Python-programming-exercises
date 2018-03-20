@@ -4,8 +4,12 @@
 # contains every number.
 
 
-the_lists = [int(x) for x in input().split()]
-print(the_lists)
 
 
 
+numbers = input('Enter the numbers:')
+stringNums = numbers.split(',')
+tup = (stringNums)
+
+print(tup)
+print(stringNums)
